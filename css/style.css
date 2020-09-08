@@ -1,0 +1,112 @@
+@import "https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+header {
+  margin: 0 auto;
+  font-family: 'Antic Slab', serif;
+  background-color: #0984e3;
+}
+
+
+.site-header {
+  text-align: center;
+
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+  margin-bottom: 2em;
+
+}
+
+.profile {
+  display: block;
+
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+  border-radius: 50%;
+}
+
+h1{
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-size: 5em;
+}
+
+h2{
+  margin-top: 5em;
+  font-family: 'Antic Slab', serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+p{
+  text-align: left;
+}
+
+
+strong{
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+.btn {padding: .375rem .75rem; margin-top:10px;}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+.neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+}
+
+.neo-button:active {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+}
+
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-linkedin {
+    color: #0077b5
+}
+
+.fa-google {
+    color: #dc4e41
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
